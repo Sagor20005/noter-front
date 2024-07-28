@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {useNavigate} from 'react-router-dom'
 
 const UpdateUser = ()=> {
-  const server = "https://noter-api-note.vercel.app/";
+  const server = "https://noter-api-note.vercel.app";
   const Navigate = useNavigate();
   const [user,setUser] = useState( {
       name: "", email: ""})
