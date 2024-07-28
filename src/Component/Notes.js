@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import {useNavigate} from 'react-router-dom'
 const Notes = ()=> {
-  const server = "https://noter-api-note.vercel.app/";
+  const server = "https://noter-api-note.vercel.app";
   const Navigate = useNavigate()
   const [notes,setNotes]=useState([])
   const GetNotes = async ()=>{
