@@ -20,7 +20,7 @@ const NavMenu =()=>{
               <Link to="/update/user">Update informatiin</Link>
             </li>
             <li>
-              <Link to="/" onClick={()=>{
+              <Link to="/login" onClick={()=>{
               localStorage.clear()
               }}>Logout account</Link>
             </li>
