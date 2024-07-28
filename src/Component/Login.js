@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {useNavigate,Link} from 'react-router-dom'
 
 const Login = ()=> {
-  const server = "http://localhost:2000";
+  const server = "https://noter-api-note.vercel.app/";
   const[user,setUser] = useState( {
       email: "", password: ""
     })
