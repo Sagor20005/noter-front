@@ -8,7 +8,7 @@ const Nav = ()=>{
     <>
       <div className="navbar">
         <ul>
-          <li><h1>Note</h1></li>
+          <li> onClick={()=>Navigate("/")}<h1>Note</h1></li>
           <li>
             <img onClick={()=>Navigate("/menu")} src={MenuPng} alt="profile"/>
           </li>
