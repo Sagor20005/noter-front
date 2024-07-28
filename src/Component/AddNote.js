@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom'
 
 
 const AddNote = ()=> {
-  const server = "https://noter-api-note.vercel.app/";
+  const server = "https://noter-api-note.vercel.app";
   const Navigate = useNavigate()
   const [note,setNote] = useState( {
       titel: "", discription: "", userId: ""
