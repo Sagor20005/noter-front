@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 const Signup = ()=> {
-  const server = "http://localhost:2000";
+  const server = "https://noter-api-note.vercel.app/";
   const Navigate = useNavigate();
   const[user,
     setUser] = useState( {
