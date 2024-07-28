@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 import {useNavigate,useParams} from 'react-router-dom'
 
 const UpdateNote = ()=> {
-  const server = "https://noter-api-note.vercel.app/";
+  const server = "https://noter-api-note.vercel.app";
   const {id,titel,dis} = useParams()
   console.log(id,titel,dis)
   const Navigate = useNavigate()
