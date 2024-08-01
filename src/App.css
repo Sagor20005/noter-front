@@ -130,6 +130,9 @@ html{
 .note h2{
   margin-bottom: 1rem;
 }
+.note p{
+  width: 90%;
+}
 .noteAction{
   width: 100%;
   display: flex;
